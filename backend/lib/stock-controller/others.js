@@ -4,7 +4,7 @@ const Product = require("../../models/Product");
 
 let mongo_connection = mongoose.createConnection(process.env.MONGO_URI, {
   // Removed deprecated options
-  keepAlive: 1,
+  keepAlive: true,
   connectTimeoutMS: 10000,
   socketTimeoutMS: 30000,
 });
