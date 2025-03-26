@@ -521,14 +521,7 @@ const AboutUs = ({
 
               <TabsComponent>
                 <Tabs>
-                  <TabList>
-                    <Tab>{t("OurTeam")} 1</Tab>
-                    <Tab>{t("OurTeam")} 2</Tab>
-                    <Tab>{t("OurTeam")} 3</Tab>
-                    <Tab>{t("OurTeam")} 4</Tab>
-                    <Tab>{t("OurTeam")} 5</Tab>
-                    <Tab>{t("OurTeam")} 6</Tab>
-                  </TabList>
+                  
 
                   <TabPanel className="mt-10">
                     <div className="grid md:grid-cols-5 sm:grid-cols-6 gap-3 md:gap-5 xl:gap-6 lg:gap-6 md:mb-6 mb-3 relative">
